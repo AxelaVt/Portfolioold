@@ -5,12 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Alexa Vermenot">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Titre</title> //le Titre
+    <title>Portefolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+
+  <div class="container-fluid">
+      <nav class="col-sm-6 col-8" id="myScrollspy">
+        <!-- <ul class="nav nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#section1">Acceuil</a>
+          </li> -->
+          <li class="nav-item d">
+            <a class="nav-link" href="#section1">A propos</a>
+          </li>
+          <li class="nav-item g">
+            <a class="nav-link" href="#section2">Projets</a>
+          </li>
+          <li class="nav-item d">
+            <a class="nav-link" href="#section3">Articles</a>
+          </li>
+          <li class="nav-item g">
+            <a class="nav-link" href="#section4">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+      <div class="col-sm-4 col-6">
+        <section id="section1">
+          <h1>Section 1</h1>
+          <p>Try to scroll this page and look at the menu while scrolling!</p>
+        </section>
+        <section id="section2">
+          <h1>Section 2</h1>
+          <p>Try to scroll this page and look at the menu while scrolling!</p>
+        </section>
+        <section id="section3">
+          <h1>Section 3</h1>
+          <p>Try to scroll this page and look at the menu while scrolling!</p>
+        </section>
+        <section id="section4">
+          <h1>Section 4</h1>
+          <p>Try to scroll this page and look at the menu while scrolling!</p>
+        </section>
+      </div>
+
+
+
+</body>
 
 
 
