@@ -50,12 +50,15 @@
         <h1 class="col-sm-12 col-lg-6">Projets</h1>
         <div class="card-body col-sm-12 col-lg-6">
           <div class="imageprojet">
-            <a href="#pageprojet" class="card-link"><img src="img/Screenshot-projet-integration-bootstrap-.png" alt="bslite"></a>
+            <p class="card-text">Intégration template BisLite avec bootstrap</p>
+            <a href="#pageprojet" class="card-link"><img class="card-img-right" src="img/Screenshot-projet-integration-bootstrap-.png" alt="bslite"></a>
           </div>
           <div class="imageprojet">
+            <h4 class="card-text">Card title</h4>
             <a href="#pageprojet" class="card-link"><img src="img/Screenshot-projet-integration-html-css-.png" alt="gratia"></a>
           </div>
           <div class="imageprojet">
+            <h4 class="card-text">Card title</h4>
             <a href="#pageprojet" class="card-link"><img src="img/bomberbird.png" alt="bomberbird"></a>
           </div>
         </div>
