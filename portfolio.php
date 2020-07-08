@@ -13,9 +13,9 @@
 
     <div class="container-fluid">
       <div id="top"><a class="nav-link" href="#home">
-        <img src="img/treesf.png" alt="accueil"></a>
-        <span>Portfolio Alexa Vermenot</span>
-
+        <!-- <img src="img/treesf.png" alt="accueil"></a> -->
+        <span>AlexaVermenot</span><img src="img/logo.png" alt="accueil"><span>WebDeveloper</span>
+        <!-- ajouter logo -->
       </div>
 
       <div class="container" id="nav">
@@ -38,42 +38,86 @@
       </div>
     </div>
 
-
+<!-- page presentation -->
     <div class="container-fluid">
       <section class="row" id="about">
         <h1 class="col-sm-12 col-lg-6">About</h1>
         <p class="col-sm-12 col-lg-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Try to scroll this page and look at the menu while scrolling!</p>
       </section>
     </div>
+    <!-- page projets -->
     <div class="container-fluid">
       <section class="row" id="projets">
         <h1 class="col-sm-12 col-lg-6">Projets</h1>
         <div class="card-body col-sm-12 col-lg-6">
-          <div class="imageprojet">
-            <p class="card-text">Intégration template BisLite avec bootstrap</p>
-            <a href="#pageprojet" class="card-link"><img class="card-img-right" src="img/Screenshot-projet-integration-bootstrap-.png" alt="bslite"></a>
-          </div>
-          <div class="imageprojet">
-            <h4 class="card-text">Card title</h4>
-            <a href="#pageprojet" class="card-link"><img src="img/Screenshot-projet-integration-html-css-.png" alt="gratia"></a>
-          </div>
-          <div class="imageprojet">
-            <h4 class="card-text">Card title</h4>
-            <a href="#pageprojet" class="card-link"><img src="img/bomberbird.png" alt="bomberbird"></a>
-          </div>
+            <div class="card">
+              <img class="card-img-top p-2" src="img/Screenshot-projet-integration-bootstrap-.png" alt="bslite">
+              <div class="card-img-overlay">
+                <!-- <p class="card-text text-center">Intégration template BisLite avec HTML et framework bootstrap</p> -->
+                <a href="#pageprojet" class="card-link"><p class="card-text text-center">Intégration template BisLite avec HTML et framework bootstrap</p></a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top p-2" src="img/Screenshot-projet-integration-html-css-.png" alt="gratia"></a>
+              <div class="card-img-overlay">
+                <!-- <p class="card-text text-center">Intégration template Gratia avec HTML CSS</p> -->
+                <a href="#pageprojet" class="card-link"><p class="card-text text-center">Intégration template Gratia avec HTML CSS</p></a>
+              </div>
+            </div>
+              <div class="card">
+                  <img class="card-img-top p-2" src="img/bomberbird.png" alt="bomberbird">
+                  <div class="card-img-overlay">
+                    <!-- <p class="card-text text-center">Réalisation d'un bomberman en javascript</p> -->
+                    <a href="#pageprojet" class="card-link"><p class="card-text text-center text-align-midle">Réalisation d'un bomberman en javascript</p></a>
+                  </div>
+              </div>
+      </section>
+    </div>
+    <div class="container-fluid">
+      <section class="row" id="projets">
+        <h1 class="col-sm-12 col-lg-6">Projets</h1>
+        <div class="card-body col-sm-12 col-lg-6">
+            <div class="card">
+              <img class="card-img-top p-2" src="img/Screenshot-projet-integration-bootstrap-.png" alt="bslite">
+              <div class="card-img-overlay">
+                <!-- <p class="card-text text-center">Intégration template BisLite avec HTML et framework bootstrap</p> -->
+                <a href="#pageprojet" class="card-link"><p class="card-text text-center">Intégration template BisLite avec HTML et framework bootstrap</p></a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top p-2" src="img/Screenshot-projet-integration-html-css-.png" alt="gratia"></a>
+              <div class="card-img-overlay">
+                <!-- <p class="card-text text-center">Intégration template Gratia avec HTML CSS</p> -->
+                <a href="#pageprojet" class="card-link"><p class="card-text text-center">Intégration template Gratia avec HTML CSS</p></a>
+              </div>
+            </div>
+              <div class="card">
+                  <img class="card-img-top p-2" src="img/bomberbird.png" alt="bomberbird">
+                  <div class="card-img-overlay">
+                    <!-- <p class="card-text text-center">Réalisation d'un bomberman en javascript</p> -->
+                    <a href="#pageprojet" class="card-link"><p class="card-text text-center text-align-midle">Réalisation d'un bomberman en javascript</p></a>
+                  </div>
+              </div>
+      </section>
+    </div>
+<!-- page articles -->
+    <div class="container-fluid">
+      <section class="row" id="article">
+        <h1 class="col-sm-12 col-lg-6">Articles</h1>
+        <div class="card-body col-sm-12 col-lg-6">
         </div>
       </section>
     </div>
+
+
+
+
+
     <div class="container-fluid">
-      <section class="row" id="section3">
-        <h1>Section 3</h1>
-        <p>Try to scroll this page and look at the menu while scrolling!</p>
-      </section>
-    </div>
-    <div class="container-fluid">
-      <section class="row" id="section4">
-        <h1>Section 4</h1>
-        <p>Try to scroll this page and look at the menu while scrolling!</p>
+      <section class="row" id="contact">
+        <h1 class="col-sm-12 col-lg-6">Contact</h1>
+        <div class="card-body col-sm-12 col-lg-6">
+        </div>
       </section>
     </div>
 
